@@ -39,7 +39,7 @@ public class MyApplication extends Application {
 ```
 
 Step 4:
-Now in your manifest.xml add:
+Now in your AndroidManifest.xml add:
 ```
 
         <receiver
