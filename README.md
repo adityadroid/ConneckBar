@@ -55,18 +55,12 @@ Now in your AndroidManifest.xml add:
       android:name=".MyApplication"
       
 ```
- in the 
- ```
- <application>
- ```
- tag
- and
+ in the application tag and add permissions:
 ```
        <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 ```
-permissions.
-      
+
      
 Step 5:      
 Now in you can call it in your activity class using any of these three constructors:
