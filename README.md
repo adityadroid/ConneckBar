@@ -50,16 +50,12 @@ Now in your AndroidManifest.xml add:
             </intent-filter>
         </receiver>
         
+```and
 ```
-        
- and :
-        
-```
-        
       android:name=".MyApplication"
       
 ```
- in the <application> tag.
+ in the ```<application>``` tag.
       
 and 
 ```
