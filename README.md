@@ -40,6 +40,7 @@ public class MyApplication extends Application {
 
 Step 4:
 Now in your AndroidManifest.xml add:
+
 ```
 
         <receiver
@@ -50,12 +51,15 @@ Now in your AndroidManifest.xml add:
             </intent-filter>
         </receiver>
         
-```and
+```
+and
+
 ```
       android:name=".MyApplication"
       
 ```
  in the application tag and add permissions:
+ 
 ```
        <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -64,6 +68,7 @@ Now in your AndroidManifest.xml add:
      
 Step 5:      
 Now in you can call it in your activity class using any of these three constructors:
+
 ```
             public ConneckBar(Context currentApplicationContext, View view, String textToBeDisplayed, View.OnClickListener clickListener, int Duration , int colorBackGround, int colorText, int colorActionText );
             
@@ -75,6 +80,7 @@ Now in you can call it in your activity class using any of these three construct
             public ConneckBar(Context currentApplicationContext, View view, String textToBeDisplayed, View.OnClickListener clickListener, int Duration );
             
 ```
+
             Note: all the color arguments of type int expect a Color.COLORNAME(Ex: Color.WHITE) kind of argument.
             
             
